@@ -1,0 +1,155 @@
+/* Common shared styles start */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Lato";
+}
+.border {
+  border: 5px solid red;
+}
+.primary-font-color {
+  color: #e55473;
+}
+.primary-bg-color {
+  background: rgba(229, 84, 115, 0.1);
+}
+/* .white {
+  color: white;
+} */
+.primary-btn {
+  color: #fff;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 16px 35px;
+  border-radius: 6px;
+  background: #e55473;
+  border: 0px;
+}
+.primary-para {
+  max-width: 610px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 13px;
+  font-weight: 400;
+  margin: 12px 0px;
+  font-style: normal;
+}
+.primary-title {
+  color: #272727;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+/* Common shared styles end */
+
+/* Header styles start  */
+.banner {
+  background: rgba(229, 84, 115, 0.1);
+  max-width: 1920px;
+  max-height: 850px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  padding-right: 200px;
+  /* align-items: center; */
+}
+.banner-title {
+  max-width: 600px;
+  color: #272727;
+  font-family: Lato;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 120px;
+}
+
+.header-pic {
+  max-width: 400px;
+  max-height: 600px;
+  padding-top: 40px;
+  margin-left: 100px;
+}
+/* Header styles end  */
+
+/* deal section styles start  */
+.deal {
+  display: flex;
+  justify-content: space-between;
+}
+.deal-content .primary-title {
+  padding-top: 120px;
+  padding-left: 370px;
+}
+.deal-content .primary-para {
+  padding-left: 340px;
+  text-align: center;
+  max-width: 330px;
+  margin: 20px 0;
+}
+.deal-content .primary-btn {
+  margin-left: 430px;
+}
+.deal .deal-pic {
+  max-width: 220px;
+  max-height: 340px;
+  padding: 60px 380px 60px 30px;
+}
+/* deal section styles end  */
+
+/* Contact section styles start  */
+.contact > .contact-content > .primary-title {
+  padding-top: 100px;
+}
+.contact > .contact-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact > .contact-content > .primary-para {
+  max-width: 450px;
+  text-align: center;
+  margin: 20px 0px 40px 0px;
+}
+.contact .pic-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.pic-container > img {
+  max-width: 250px;
+  max-height: 300px;
+  padding-bottom: 100px;
+}
+.subscribe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1010px;
+  max-height: 400px;
+  flex-shrink: 0;
+  margin: ;
+  background-image: url("asset/ractangle-9.pnj");
+}
+/* Contact section styles end  */
+
+/* Footer section styles start  */
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-height: 500px;
+  padding: 100px;
+  background: black;
+}
+.copy-right {
+  font-size: 8px;
+}
+.footer > .primary-para {
+  max-width: 400px;
+  text-align: center;
+}
+/* Footer section styles end  */
