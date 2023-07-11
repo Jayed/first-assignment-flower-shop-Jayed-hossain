@@ -75,45 +75,63 @@ body {
 }
 /* Header styles end  */
 /* Feature section styles start  */
-.feature > .pic-container > img {
+/* .feature > .pic-container > img {
   height: 300px;
   width: 200px;
-}
-.feature > .pic-container > .box-1 {
-  width: 300px;
+} */
+.feature > .pic-container > .box-1-content > .box-1 {
+  width: 330px;
   height: 350px;
   flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
-  background: rgba(167, 33, 98, 0.15); 
-  background-image: url('asset/pink-1.png');
+  background: rgba(167, 33, 98, 0.15);
+  background-image: url("asset/pink-1.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size:  200px;
+  background-size: 200px;
   /* ?background-size: contain; */
 }
-.feature > .pic-container > .box-2 {
-  width: 300px;
+.feature > .pic-container > .box-1-content > .box-1-title {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.feature > .pic-container > .box-2-content > .box-2 {
+  width: 330px;
   height: 350px;
   flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
-  background: rgba(5, 151, 160, 0.15);   
-  background-image: url('asset/pink-2.png');
+  background: rgba(5, 151, 160, 0.15);
+  background-image: url("asset/pink-2.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size:  240px;
+  background-size: 240px;
   /* ?background-size: contain; */
 }
-.feature > .pic-container > .box-3 {
-  width: 300px;
+.feature > .pic-container > .box-2-content > .box-2-title {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+.feature > .pic-container > .box-3-content > .box-3 {
+  width: 330px;
   height: 350px;
   flex-shrink: 0;
   border-radius: 300px 300px 0px 0px;
-  background: rgba(71, 125, 17, 0.15);  
-  background-image: url('asset/pink-3.png');
+  background: rgba(71, 125, 17, 0.15);
+  background-image: url("asset/pink-3.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size:  200px;
+  background-size: 200px;
   /* ?background-size: contain; */
+}
+.feature > .pic-container > .box-3-content > .box-3-title {
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 5px;
+  padding-bottom: 50px;
 }
 /* Feature section styles end  */
 
@@ -150,7 +168,7 @@ body {
   max-height: 620px;
   flex-shrink: 0;
   border-radius: 8px;
-  background: rgba(229, 84, 115, 0.05);
+  background: rgba(39, 39, 39, 0.05);
   margin: 100px 150px;
   padding: 40px 0px;
 }
@@ -174,10 +192,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-/* .support > .col3 > img {
-  height: 60px;
-  width: 60px;
-} */
 .support > .col3 {
   display: flex;
   flex-direction: column;
@@ -240,6 +254,62 @@ body {
   margin-bottom: 120px;
 }
 /* Contact section styles end  */
+
+/* Feedback section styles start  */
+.feedback-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+}
+.feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feedback img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.feedback .card-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(167, 33, 98, 0.15);
+  margin: 10px 50px;
+  padding: 15px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.feedback .card-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(5, 151, 160, 0.15);
+  margin: 10px 50px;
+  padding: 15px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+.feedback .card-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(71, 125, 17, 0.15);
+  margin: 10px 50px;
+  padding: 15px 20px;
+  gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Feedback section styles end  */
 
 /* Footer section styles start  */
 .footer {
